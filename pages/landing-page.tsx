@@ -9,13 +9,13 @@ import CardLink from "../components/card-link";
 const LandingPageJusticiaB: NextPage = () => {
   return (
     <div className="relative bg-lightseagreen w-full flex flex-col items-center justify-start text-center text-21xl text-gray-white font-body-regular-600">
-      <header className="bg-darkturquoise w-full h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center mix-blend-normal sticky top-[0] z-[2] lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border sm:mix-blend-normal">
+      <header className="bg-lightseagreen w-full h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center mix-blend-normal sticky top-[0] z-[2] lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border sm:mix-blend-normal">
         <header className="flex-1 flex flex-row items-center justify-between text-center text-5xl text-gray-white font-body-regular-600 lg:flex">
           <div className="flex flex-row items-center justify-center gap-[8px]">
             <img
               className="relative w-[42px] h-11"
               alt="logo Justicia"
-              src="/logoJusticia.svg"
+              src="/logoJusticia1.svg"
             />
             <div className="flex flex-col items-start justify-start">
               <h2 className="m-0 relative text-inherit leading-[24px] font-semibold font-inherit">
@@ -28,14 +28,42 @@ const LandingPageJusticiaB: NextPage = () => {
           </div>
           <div className="flex flex-row items-center justify-end gap-[36px] text-sm sm:flex">
             <div className="flex flex-row items-start justify-start gap-[30px] sm:hidden">
-              <div className="relative leading-[22px]">Gestion Digital</div>
-              <div className="relative leading-[22px]">Suprema Corte</div>
-              <div className="relative leading-[22px]">Jurisprudencia</div>
-              <div className="relative leading-[22px] font-semibold">
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] text-[inherit]"
+                href="/"
+              >
+                Gestion Digital
+              </Link>
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] text-[inherit]"
+                href="/"
+              >
+                Suprema Corte
+              </Link>
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] text-[inherit]"
+                href="/"
+              >
+                Jurisprudencia
+              </Link>
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] font-semibold text-[inherit]"
+                href="/"
+              >
                 Guia Judicial
-              </div>
-              <div className="relative leading-[22px]">Informacion General</div>
-              <div className="relative leading-[22px]">Uso interno</div>
+              </Link>
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] text-[inherit]"
+                href="/"
+              >
+                Informacion General
+              </Link>
+              <Link
+                className="cursor-pointer [text-decoration:none] relative leading-[22px] text-[inherit]"
+                href="/"
+              >
+                Uso interno
+              </Link>
             </div>
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] hidden flex-row items-center justify-center md:flex sm:flex">
               <button className="cursor-pointer [border:none] p-0 bg-maroon w-[42px] h-[39px] flex flex-row items-center justify-center">

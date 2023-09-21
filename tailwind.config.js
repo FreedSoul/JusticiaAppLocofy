@@ -23,6 +23,7 @@ module.exports = {
         },
         "gray-700": "#363a3d",
         "gray-50": "#e7e9eb",
+        maroon: "#7d0000",
         skyblue: "#83e1ff",
         mediumblue: "#0646e9",
         slategray: "#576074",
@@ -36,8 +37,6 @@ module.exports = {
         royalblue: "#006be9",
         dodgerblue: "#5780e8",
         mediumslateblue: "rgba(7, 71, 232, 0.74)",
-        darkturquoise: "#00dfdf",
-        maroon: "#7d0000",
       },
       spacing: {},
       fontFamily: {

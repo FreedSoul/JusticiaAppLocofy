@@ -3,12 +3,50 @@ import "antd/dist/antd.min.css";
 import { Dropdown, Menu } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import Header from "../components/header";
 
 const NoticiasGridView: NextPage = () => {
   return (
     <div className="relative bg-lightseagreen w-full flex flex-col items-start justify-start">
-      <Header />
+      <header className="bg-lightseagreen w-full h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center mix-blend-normal sticky top-[0] z-[2] lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border sm:mix-blend-normal">
+        <header className="flex-1 flex flex-row items-center justify-between text-center text-5xl text-gray-white font-body-regular-600 lg:flex">
+          <div className="flex flex-row items-center justify-center gap-[8px]">
+            <img
+              className="relative w-[42px] h-11"
+              alt="logo Justicia"
+              src="/logoJusticia.svg"
+            />
+            <div className="flex flex-col items-start justify-start">
+              <h2 className="m-0 relative text-inherit leading-[24px] font-semibold font-inherit">
+                Justicia
+              </h2>
+              <div className="relative text-sm leading-[16px] font-medium text-gray1-100 text-right flex items-end w-[89px]">
+                Buenos aires
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center justify-end gap-[36px] text-sm sm:flex">
+            <div className="flex flex-row items-start justify-start gap-[30px] sm:hidden">
+              <div className="relative leading-[22px]">Gestion Digital</div>
+              <div className="relative leading-[22px]">Suprema Corte</div>
+              <div className="relative leading-[22px]">Jurisprudencia</div>
+              <div className="relative leading-[22px] font-semibold">
+                Guia Judicial
+              </div>
+              <div className="relative leading-[22px]">Informacion General</div>
+              <div className="relative leading-[22px]">Uso interno</div>
+            </div>
+            <button className="cursor-pointer [border:none] p-0 bg-[transparent] hidden flex-row items-center justify-center md:flex sm:flex">
+              <button className="cursor-pointer [border:none] p-0 bg-maroon w-[42px] h-[39px] flex flex-row items-center justify-center">
+                <img
+                  className="relative w-6 h-6 overflow-hidden shrink-0 md:flex"
+                  alt=""
+                  src="/notification.svg"
+                />
+              </button>
+            </button>
+          </div>
+        </header>
+      </header>
       <section className="self-stretch flex flex-col py-[120px] px-[30px] items-center justify-start bg-[url('/hero-noticias@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-33xl text-gray-white font-body-regular-400">
         <div className="flex flex-col items-center justify-start gap-[12px]">
           <h1 className="m-0 relative text-inherit leading-[72px] font-semibold font-inherit">
