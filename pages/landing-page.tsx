@@ -3,8 +3,8 @@ import "antd/dist/antd.min.css";
 import { Dropdown, Menu, Button } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import FormContainer from "./form-container";
-import CardLink from "./card-link";
+import FormContainer from "../components/form-container";
+import CardLink from "../components/card-link";
 
 const LandingPageJusticiaB: NextPage = () => {
   return (
