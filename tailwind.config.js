@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dimgray: "#743f3f",
+        lightseagreen: "#1aaea5",
         "gray-white": "#fff",
         "primary-50": "#edeff6",
         gray1: {
@@ -17,23 +17,22 @@ module.exports = {
         },
         black: "#000",
         "primary-500": "#4a60a1",
-        whitesmoke: {
-          "100": "#ebebeb",
-          "200": "#eaeaea",
-        },
         gainsboro: {
           "100": "rgba(226, 226, 226, 0.9)",
           "200": "rgba(226, 226, 226, 0.1)",
         },
         "gray-700": "#363a3d",
-        "gray-400": "#889099",
         "gray-50": "#e7e9eb",
-        lightseagreen: "#1aaea5",
         skyblue: "#83e1ff",
         mediumblue: "#0646e9",
         slategray: "#576074",
         darkslategray: "#434343",
+        "gray-400": "#889099",
         "primary-800": "#1e2640",
+        whitesmoke: {
+          "100": "#ebebeb",
+          "200": "#eaeaea",
+        },
         royalblue: "#006be9",
         dodgerblue: "#5780e8",
         mediumslateblue: "rgba(7, 71, 232, 0.74)",

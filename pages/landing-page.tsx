@@ -8,7 +8,7 @@ import CardLink from "../components/card-link";
 
 const LandingPageJusticiaB: NextPage = () => {
   return (
-    <main className="bg-lightseagreen w-[1920px] flex flex-col items-center justify-start text-center text-21xl text-gray-white font-body-regular-600">
+    <div className="relative bg-lightseagreen w-full flex flex-col items-center justify-start text-center text-21xl text-gray-white font-body-regular-600">
       <header className="bg-darkturquoise w-full h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center mix-blend-normal sticky top-[0] z-[2] lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border sm:mix-blend-normal">
         <header className="flex-1 flex flex-row items-center justify-between text-center text-5xl text-gray-white font-body-regular-600 lg:flex">
           <div className="flex flex-row items-center justify-center gap-[8px]">
@@ -543,7 +543,7 @@ const LandingPageJusticiaB: NextPage = () => {
                 <img
                   className="relative w-5 h-[21.67px]"
                   alt="facebook Icon"
-                  src="/facebookIcon.svg"
+                  src="/facebookIcon1.svg"
                 />
               </a>
               <a
@@ -554,7 +554,7 @@ const LandingPageJusticiaB: NextPage = () => {
                   className="relative w-5 h-5 overflow-hidden shrink-0"
                   alt="linkedin Icon"
                   loading="lazy"
-                  src="/linkedinIcon.svg"
+                  src="/linkedinIcon1.svg"
                 />
               </a>
               <a
@@ -565,7 +565,7 @@ const LandingPageJusticiaB: NextPage = () => {
                   className="relative w-5 h-5 overflow-hidden shrink-0"
                   alt="instagram Icon"
                   loading="lazy"
-                  src="/instagramIcon.svg"
+                  src="/instagramIcon1.svg"
                 />
               </a>
             </div>
@@ -668,7 +668,7 @@ const LandingPageJusticiaB: NextPage = () => {
           </div>
         </footer>
       </section>
-    </main>
+    </div>
   );
 };
 

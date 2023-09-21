@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Header: NextPage = () => {
   return (
     <header
-      className="self-stretch bg-dimgray h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] [background:white] z-[2] text-center text-5xl text-gray-white font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border"
+      className="self-stretch bg-lightseagreen h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] z-[2] text-center text-5xl text-gray-white font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border"
       id="topHeader"
     >
       <div className="flex-1 flex flex-row items-center justify-between">
